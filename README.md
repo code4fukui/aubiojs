@@ -1,9 +1,18 @@
 # aubiojs
 
-- [demo](https://code4fukui.github.io/aubiojs/)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## usage
+A JavaScript port of the Aubio audio analysis library.
 
+## Demo
+[Live demo](https://code4fukui.github.io/aubiojs/)
+
+## Features
+- Pitch detection
+- Tempo tracking
+- Onset detection
+
+## Usage
 ```js
 import aubio from 'https://code4fukui.github.io/aubiojs/aubio.esm.js';
 
@@ -14,3 +23,6 @@ const tempo = new Tempo(
   audioContext.sampleRate
 );
 ```
+
+## License
+MIT License — see [LICENSE](LICENSE).
